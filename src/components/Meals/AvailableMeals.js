@@ -11,8 +11,8 @@ const AvailableMeals = () => {
 
     useEffect( () => {
       const fetchMeals = async () => {
-        // const response = await fetch('https://react-food-order-cart-dec-default-rtdb.europe-west1.firebasedatabase.app/meals.json');
-      const response = await fetch('https://react-food-order-cart-jan-default-rtdb.europe-west1.firebasedatabase.app//meals.json');
+        // const response = await fetch('https://react-food-order-cart-jan-default-rtdb.europe-west1.firebasedatabase.app//meals.json');
+      const response = await fetch('https://react-food-order-cart-feb-default-rtdb.europe-west1.firebasedatabase.app//meals.json');
 
         if (!response.ok){
           throw new Error('Something went wrong!');
