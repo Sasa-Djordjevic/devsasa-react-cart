@@ -13,7 +13,9 @@ const AvailableMeals = () => {
       const fetchMeals = async () => {
 
       //const response = await fetch('https://react-food-order-cart-nov-default-rtdb.europe-west1.firebasedatabase.app/meals.json');
-      const response = await fetch('https://react-food-order-cart-ja-1382b-default-rtdb.europe-west1.firebasedatabase.app/meals.json');
+      //const response = await fetch('https://react-food-order-cart-ja-1382b-default-rtdb.europe-west1.firebasedatabase.app/meals.json');
+
+      const response = await fetch('https://react-food-order-cart-jan1-default-rtdb.firebaseio.com/meals.json');
 
         if (!response.ok){
           throw new Error('Something went wrong!');
